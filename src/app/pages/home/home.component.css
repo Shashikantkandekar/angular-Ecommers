@@ -1,0 +1,39 @@
+.product-card {
+    margin-top: 10px;
+    border: 1px solid black; /* Optional: Add a border for better visual separation */
+    border-radius: 8px; /* Optional: Rounded corners for cards */
+    overflow: hidden; /* Ensure contents do not overflow */
+  
+    /* Set fixed height for the product card */
+    height: 97%; /* Adjust this value as per your design */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 10px; /* Adjust padding as per your design */
+    flex: 1; /* Allow the content to expand to fill remaining space */
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .card-subtitle {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: auto; /* Push price to the bottom */
+  }
+  
